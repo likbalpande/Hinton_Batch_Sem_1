@@ -1,0 +1,40 @@
+#item-1 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+
+    padding: 20px;
+    margin: 40px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
+}
+
+#item-2 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+
+    padding: 20px;
+    margin: 40px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
+
+    box-sizing: border-box;
+}
+
+span {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+
+    padding: 20px;
+    margin: 40px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
+}
