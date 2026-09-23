@@ -1,0 +1,21 @@
+#title {
+    color: chocolate;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: cadetblue;
+    background-color: yellow;
+}
+
+.special-text {
+    color: darkviolet;
+}
+
+span {
+    color: brown;
+    background-color: royalblue;
+}
