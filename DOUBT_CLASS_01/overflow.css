@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 48px;
+}
+
+section {
+    overflow: scroll;
+    /* background-color: yellow; */
+    /* padding: 24px; */
+    border: 24px solid yellow;
+}
+
+article {
+    display: flex;
+
+    width: 500vw;
+}
+
+div {
+    border: 2px solid grey;
+    height: 200px;
+    width: 275px;
+    background-color: lime;
+}
+
+.box-2 {
+    background-color: aqua;
+}
