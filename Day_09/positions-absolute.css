@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 250px;
+    width: 250px;
+    /* border: 4px solid brown; */
+}
+
+.item-1 {
+    background-color: aqua;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+
+    /* transform: translate(-50%, -50%); */
+    
+}
+/* .item-2 {
+    background-color: violet;
+} */
