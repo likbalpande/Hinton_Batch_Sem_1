@@ -1,0 +1,87 @@
+/* Write your styles here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1a1a2e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (width > 600px) {
+    body {
+        background-color: #0f2a2a;
+    }
+}
+
+.ticket {
+    width: 400px;
+    background-color: White;
+    border-radius: 20px;
+    margin: auto; /* this only works horizontally */
+}
+
+.ticket-header {
+    background-color: #a855f7;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    color: white;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* justify-content always works on MAIN AXIS */
+/* align-items always works on CROSS AXIS */
+
+.event-label {
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.event-name {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.tour-info {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.ticket-body {
+    padding: 24px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket-body div {
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+.tb-label {
+    font-weight: 600;
+    font-size: 11px;
+    color: #9ca3af;
+}
+
+.tb-value {
+    font-weight: 700;
+    font-size: 15px;
+    color: #111827;
+}
